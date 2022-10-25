@@ -12,7 +12,7 @@ public class StringLength{
         String word;
         System.out.println("Please enter a word: ");
         word = input.next();
-        System.out.println("The number of character in the word "+word+" is: "+word.length());
+        System.out.println("The number of character in the word \""+word+"\" is: "+word.length());
       
 }
 }

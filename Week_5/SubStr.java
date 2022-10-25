@@ -12,7 +12,7 @@ public class SubStr{
         String word;
         System.out.println("Please enter a word: ");
         word = input.next();
-        System.out.println("A substring created from the first 4 characters of "+word+" is: "+word.substring(0,4));
+        System.out.println("A substring created from the first 4 characters of \""+word+"\" is: "+word.substring(0,4));
       
 }
 }
