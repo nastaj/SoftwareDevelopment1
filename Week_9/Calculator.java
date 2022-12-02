@@ -15,10 +15,13 @@ public class Calculator{
 
     System.out.println("Welcome to the Calculator");
     System.out.println("");
+
     System.out.print("Enter first number: ");
     a = input.nextInt();
     System.out.print("Enter second number: ");
     b = input.nextInt();
+    System.out.println("");
+
     System.out.println("Choose your operation:");
     System.out.println("a - addition");
     System.out.println("s - substraction");
