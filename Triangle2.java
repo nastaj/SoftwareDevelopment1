@@ -10,7 +10,7 @@ public class Triangle2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        for (int rows = 1; rows <= 8; rows++) {
+        for (int rows = 8; rows >= 1; rows--) {
             for (int columns = 1; columns <= rows; columns++) {
                 System.out.print("+");
             }
