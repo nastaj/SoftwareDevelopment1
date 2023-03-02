@@ -13,16 +13,17 @@ public class Five{
 
         System.out.println("Divisible by 5:");
 
-        while (i < 50) {
-            if (i <= 40) {
-                System.out.print(i+5+", ");
-            }
-            if (i == 45) {
-                System.out.print(i+5);
-            }
-            i+=5;
+        while (i <= 50) {
+            if (i % 5 == 0 && i != 0) {
+                if (i <= 45) {
+                System.out.print(i+", ");
+                }
+                if (i == 50) {
+                System.out.print(i);
+                }
+            }  
+            i++;
         }
-        
         System.out.println("");
     }  
 }
