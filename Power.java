@@ -6,7 +6,7 @@ Author: Jakub Nasta
 */
 
 import java.util.Scanner;
-public class Square{
+public class Power{
     static int powerOf(int a, int b) {
         return (int)Math.pow(a, b);
     }
